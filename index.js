@@ -8,7 +8,8 @@ module.exports = function(source) {
   var current = loaderUtils.getCurrentRequest(this);
 
   var transform = transformWithDetails(source, {
-    sourceMap: this.sourceMap
+    sourceMap: this.sourceMap,
+    namespace: "require('flowcheck/assert')"
   });
 
   if (transform.sourceMap) {
