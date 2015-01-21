@@ -19,6 +19,8 @@ module.exports = {
 
 ```
 
+For production builds, just leave `flowcheck` out so `jsx?stripTypes` strips them completely.
+
 You can use this with *or* without using Flow or TypeScript itself.  
 It can also be a nice first step towards migrating code to Flow.
 
