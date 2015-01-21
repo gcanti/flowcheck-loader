@@ -1,7 +1,8 @@
 # flowcheck-loader
 
-This is a Webpack loader for [Flowcheck](https://github.com/gcanti/flowcheck).  
-Flowcheck is a **runtime assertions** library that uses [Flow](http://flowtype.org) syntax but is meant to be ran **in development**.
+This is a Webpack loader for **[Flowcheck](https://github.com/gcanti/flowcheck)**.  
+
+Flowcheck is a **runtime assertions** library that uses **[Flow](http://flowtype.org)** syntax but is meant to be ran **in development**.
 
 Chain this loader with **[jsx?stripTypes](https://github.com/petehunt/jsx-loader)** so types are stripped in JS code:
 
