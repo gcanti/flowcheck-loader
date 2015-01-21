@@ -1,0 +1,30 @@
+{
+  "name": "flowcheck-loader",
+  "version": "1.0.0",
+  "description": "A Webpack loader for Flowcheck",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaearon/flowcheck-loader.git"
+  },
+  "keywords": [
+    "flowcheck",
+    "flowtype",
+    "static",
+    "javascript",
+    "facebook",
+    "webpack"
+  ],
+  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gaearon/flowcheck-loader/issues"
+  },
+  "homepage": "https://github.com/gaearon/flowcheck-loader",
+  "dependencies": {
+    "loader-utils": "^0.2.2"
+  },
+  "peerDependencies": {
+    "flowcheck": "^0.2.0"
+  }
+}
