@@ -1,3 +1,6 @@
+# This repo is deprecated, please migrate to [babel-plugin-tcomb](https://github.com/gcanti/babel-plugin-tcomb) which is now Flow compatible
+
+
 # flowcheck-loader
 
 This is a Webpack loader for **[Flowcheck](https://github.com/gcanti/flowcheck)**.  
